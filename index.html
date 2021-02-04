@@ -71,7 +71,7 @@
     })
     
         function dhakaWeather(city){
-            const link = "http://api.openweathermap.org/data/2.5/weather?q="+ city +"&appid=fddeb6d4a5b798a8a4bf6aacb2bf9a78&units=metric";
+            const link = "https://api.openweathermap.org/data/2.5/weather?q="+ city +"&appid=fddeb6d4a5b798a8a4bf6aacb2bf9a78&units=metric";
             console.log(link);
             fetch(link)
                 .then(res => res.json())
